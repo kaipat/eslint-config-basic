@@ -10,7 +10,7 @@
     "eslint-config"
   ],
   "scripts": {
-    "upload": "npm version patch && git push && git push --tag && npm publish"
+    "upload": "npm version patch && git push && git push --tag && npm publish --access public"
   },
   "devDependencies": {
     "@kaipat/eslint-config-basic": "./",
