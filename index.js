@@ -1,4 +1,9 @@
 module.exports = {
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
   rules: {
     // 缩进风格
     "indent": ["error", 2, { "VariableDeclarator": "first" }],
