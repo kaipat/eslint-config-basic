@@ -1,10 +1,14 @@
 {
   "name": "@kaipat/eslint-config-basic",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
-  "files": ["*.js"],
+  "files": [
+    "*.js"
+  ],
   "license": "MIT",
-  "keywords": ["eslint-config"],
+  "keywords": [
+    "eslint-config"
+  ],
   "scripts": {
     "upload": "npm version patch && git push && git push --tag && npm publish"
   },
