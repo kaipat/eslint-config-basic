@@ -1,7 +1,7 @@
 {
   "name": "@kaipat/eslint-config-basic",
   "author": "kaipat",
-  "github": "https://github.com/kaipat/eslint-config-basic",
+  "repository": "kaipat/eslint-config-basic",
   "version": "0.0.3",
   "main": "index.js",
   "files": [
