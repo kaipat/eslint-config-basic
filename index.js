@@ -18,8 +18,6 @@ module.exports = {
     "no-sequences": "error",
     // parseInt必须指定第二个参数
     "radix": "error",
-    // 不能使用undefined
-    "no-undefined": "error",
     // 未定义前不能使用
     "no-use-before-define": "error",
     // 大括号风格
@@ -52,8 +50,6 @@ module.exports = {
     "require-await": "error",
     // 确保代码块周围有所需的空格 如 function foo() {}
     "block-spacing": "error",
-    // JSX 属性中使用双引号
-    "jsx-quotes": ["error", "prefer-double"],
     // 强制关键字之间的一致空格 如 if (isValid) {}
     "keyword-spacing": ["error", { "before": true, "after": true }],
     // 强制构造函数的首字母大写
