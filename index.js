@@ -28,7 +28,7 @@ module.exports = {
     // 大括号风格
     "brace-style": "error",
     // 强制驼峰法命名
-    "camelcase": ["error", { "properties": "always" }],
+    "camelcase": ["error", { "properties": "always", "ignoreImports": true }],
     // 对象字面量项尾不能有逗号
     "comma-dangle": ["error", "never"],
     // 文件以单一的换行符结束
