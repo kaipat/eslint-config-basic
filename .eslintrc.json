@@ -1,5 +1,0 @@
-{
-  "extends": [
-    "@kaipat/eslint-config-basic"
-  ]
-}
