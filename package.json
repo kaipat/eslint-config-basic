@@ -2,6 +2,7 @@
   "name": "@kaipat/eslint-config-basic",
   "author": "kaipat",
   "repository": "kaipat/eslint-config-basic",
+  "type": "module",
   "version": "0.0.11",
   "main": "index.js",
   "files": [
