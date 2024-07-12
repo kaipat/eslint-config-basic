@@ -3,7 +3,7 @@
   "author": "kaipat",
   "repository": "kaipat/eslint-config-basic",
   "type": "module",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "main": "index.js",
   "files": [
     "*.js"
