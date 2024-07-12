@@ -1,11 +1,18 @@
+import globals from "globals";
+import pluginJs from "@eslint/js";
+import tseslint from "typescript-eslint";
+
 export default [
+  pluginJs.configs.recommended,
+  ...tseslint.configs.recommended,
   {
-    "env": {
-      "browser": true,
-      "es6": true,
-      "node": true
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        ...globals.node
+      }
     },
-    "rules": {
+    rules: {
       // 缩进风格
       "indent": ["error", 2, { "VariableDeclarator": "first" }],
       // 必须使用全等
